@@ -63,7 +63,7 @@ function nextImage() {
     const modalImage = document.getElementById('modalImage');
     let currentIndex = parseInt(modalImage.src.split('/').pop().split('.')[0]);  // Extract the current image index
     let nextIndex = (currentIndex % 37) + 1; // Loop back after image 37
-    modalImage.src = `img/ag_icar_2023/${nextIndex}.JPG`;  // Update the image source
+    modalImage.src = `img/ag_icar_2023/${nextIndex}.jpg`;  // Update the image source
 }
 
 // Function to go to the previous image
@@ -71,7 +71,7 @@ function prevImage() {
     const modalImage = document.getElementById('modalImage');
     let currentIndex = parseInt(modalImage.src.split('/').pop().split('.')[0]);  // Extract the current image index
     let prevIndex = (currentIndex - 2 + 37) % 37 + 1; // Loop back after image 1
-    modalImage.src = `img/ag_icar_2023/${prevIndex}.JPG`;  // Update the image source
+    modalImage.src = `img/ag_icar_2023/${prevIndex}.jpg`;  // Update the image source
 }
 
 
@@ -92,11 +92,11 @@ function nextImage2() {
     const modalImage = document.getElementById('modalImage1');
     let currentIndex = parseInt(modalImage.src.split('/').pop().split('.')[0]);
     let nextIndex = (currentIndex % 10) + 1; // Loop back after image 30
-    modalImage.src = `img/ag_icar_2022/${nextIndex}.JPG`;
+    modalImage.src = `img/ag_icar_2022/${nextIndex}.jpg`;
 }
 function prevImage2() {
     const modalImage = document.getElementById('modalImage1');
     let currentIndex = parseInt(modalImage.src.split('/').pop().split('.')[0]);
     let prevIndex = (currentIndex - 2 + 10) % 10 + 1; // Loop back after image 1
-    modalImage.src = `img/ag_icar_2022/${prevIndex}.JPG`;
+    modalImage.src = `img/ag_icar_2022/${prevIndex}.jpg`;
 }
