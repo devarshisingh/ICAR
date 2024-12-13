@@ -1,0 +1,776 @@
+.navbar {
+    background: linear-gradient(35deg, #ffffff 0%, #2575fc 100%);
+}
+/* Custom class for the carousel image */
+.custom-carousel-img {
+    height: 400px; /* Set height */
+    object-fit: cover; /* Ensures image covers the area without distortion */
+    width: 100%; /* Ensure image takes full width of carousel */
+}
+
+
+.navbar-brand img {
+    height: 70px;
+    margin-left:50px;
+}
+
+.nav-link {
+    color: white !important;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+.nav-link:hover {
+    color: #2575fc !important;
+    background-color: white;
+    border-radius: 5px;
+}
+
+
+.btn-outline-light {
+    border-color: white;
+    color: white;
+}
+
+.btn-outline-light:hover {
+    background-color: white;
+    color: #2575fc;
+}
+
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+
+    
+}
+.c1 {
+ margin-left: 10px;
+   max-width: 1240px !important;
+}
+
+.c12 {
+    margin-left: 10px;
+    max-width: 1240px !important;
+  }
+  .f6{
+    margin-left: 10px;
+    max-width: 1240px !important;
+  }
+  .ig{
+    margin-left: 10px;
+    margin-right: 10px;
+    max-width: 1240px !important;
+  }
+.container-flued{
+    max-width: 1250px !important;
+    margin: 0 auto; /* Center the container */
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.container-fluid {
+   
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.container{
+   
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+h2 {
+    padding-top: 15px;
+   margin-bottom:15px;
+    font-family: 'Merriweather', serif;
+    text-transform: uppercase;
+    /* Convert text to uppercase */
+
+    font-size: 32px;
+    /* Adjust font size */
+    font-weight: bold;
+    /* Make the text bold */
+    color: #333;
+   
+    text-align: center;
+    /* Center align the text */
+    margin-bottom: 10px;
+
+}
+
+p {
+    color: #555;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.theme li {
+    color: #555;
+    margin-bottom: 15px;
+    padding: 10px;
+    background: linear-gradient(45deg, #6a11cb, #2575fc);
+    color: white;
+    border-radius: 5px;
+    transition: transform 0.2s, background-color 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.theme li:hover {
+    transform: scale(1.02);
+    background-color: #5c0dbc;
+}
+
+.l11 li {
+    color: #555;
+    margin-bottom: 15px;
+    padding: 10px;
+    background: linear-gradient(45deg, #6a11cb, #2575fc);
+    color: white;
+    border-radius: 5px;
+    transition: transform 0.2s, background-color 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.l11 li:hover {
+    transform: scale(1.02);
+    background-color: #5c0dbc;
+}
+
+.fa-btn {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 1.2em;
+    transition: color 0.2s;
+}
+
+.fa-btn:hover {
+    color: #ffdd57;
+}
+
+.btn-collapsible {
+    width: 100%;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-align: left;
+    padding: 12px;
+    background-color: #3498db;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    transition: background-color 0.3s;
+}
+
+.btn-collapsible:hover {
+    background-color: #2980b9;
+}
+
+
+.s1 {
+    margin-right: 10px;
+    /* Space between icon and text */
+    font-size: 20px;
+    /* Icon size */
+    text-align: center;
+}
+
+
+.collapse-content {
+    padding: 20px;
+    background-color: #ecf0f1;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+
+.col-md-4 {
+    margin-bottom: 15px;
+}
+
+.collapse-content {
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-top: none;
+}
+
+.btn-collapsible {
+    width: 100%;
+    text-align: left;
+    padding: 10px 15px;
+    margin-bottom: 5px;
+}
+
+.btn-collapsible.active {
+    background-color: #007bff;
+    color: white;
+}
+
+.btn-collapsible i {
+    margin-right: 10px;
+}
+
+.card-header {
+    text-align: center;
+}
+
+.card-body {
+    padding: 15px;
+}
+
+
+/* Style for the table */
+.table {
+    font-size: 1.1rem;
+}
+
+/* Style for cards */
+.card {
+    border-radius: 8px;
+    /* Rounded corners for the cards */
+}
+
+.card-header {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+/* Style for table rows */
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f2f2f2;
+    /* Light gray for odd rows */
+}
+
+/* Styling the icon in the venue section */
+.fas.fa-map-marker-alt {
+    color: #3498db;
+    /* Blue icon color */
+    margin-right: 10px;
+}
+
+
+
+.sponsorship-table {
+    margin-bottom: 40px;
+}
+
+.sponsorship-table th,
+.sponsorship-table td {
+    padding: 10px 15px;
+    text-align: center;
+}
+
+.sponsorship-table th {
+    background-color: #2980b9;
+    color: white;
+}
+
+.sponsorship-table td {
+    background-color: #ecf0f1;
+}
+
+.event-section,
+.awards-section {
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+.event-section h4,
+.awards-section h4 {
+
+    font-family: 'Arial', sans-serif;
+    font-weight: 600;
+    color: #2980b9;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.participants-section {
+    background-color: #dfe6e9;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.participants-section h4 {
+    font-family: 'Arial', sans-serif;
+    font-weight: 600;
+    color: #2980b9;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.participants-section ul {
+    padding-left: 20px;
+    list-style-type: disc;
+}
+
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: #333;
+    margin-top: 20px;
+}
+.accordion-button {
+    background: linear-gradient(45deg, #6a11cb, #2575fc);
+    color: white;
+    border-radius: 0.5rem;
+    padding: 15px;
+    font-size: 1.1rem;
+}
+
+.accordion-button:not(.collapsed) {
+    background: linear-gradient(45deg, #6a11cb, #2575fc);
+}
+
+.accordion-item {
+    margin-bottom: 10px;
+}
+.accordion-button span {
+    padding-left: 10px; /* Adds space to the left of the text */
+}
+/* Accordion Body Customization */
+.accordion-body {
+    font-size: 1rem;
+    background-color: #f9f9f9;
+    border-left: 2px solid #007bff;
+    padding: 20px;
+}
+
+/* Responsive Image */
+img.img-fluid {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    object-fit: cover;
+}
+
+/* Button Hover Effect */
+.accordion-button:hover {
+    background-color: #0056b3;
+    transition: 0.3s;
+}
+
+
+
+
+.committee-section li {
+    font-size: 15px;
+
+    color: #333;
+}
+
+.committee-sections li {
+    font-size: 14px;
+    padding: 1px;
+    color: #333;
+    display: list-item !important;
+    color: #000;
+    margin-left: 23px;
+    list-style-type: disc;
+}
+
+
+@media (min-width: 992px) {
+    .col-lg-2 {
+        flex: 0 0 20%;
+        /* This ensures that 5 images fit in a row */
+        max-width: 20%;
+        /* Allows 5 images per row on large screens */
+    }
+}
+
+/* Optional: Add space between images */
+.image-item {
+    padding: 5px;
+    /* Adds spacing between images */
+}
+
+.gallery-img {
+    width: 100%;
+    height: 180px;
+    border: 3px solid #ddd;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.gallery-img:hover {
+    transform: scale(1.05);
+}
+
+.modal-image {
+    max-height: 500px;
+    width: auto;
+}
+
+/* Centering the buttons */
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+    /* Add margin for spacing */
+}
+
+/* Styling for Show More and Show Less buttons */
+.more-btn,
+.less-btn {
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    border: none;
+    padding: 5px 10px;
+    /* Padding around the button */
+    cursor: pointer;
+    display: inline-block;
+
+    border-radius: 5px;
+    /* Rounded corners */
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    /* Smooth transition for hover and focus */
+}
+
+.in {
+    background-color: #007bff;
+    /* Blue background */
+}
+
+.in:hover {
+    background-color: #0056b3;
+    /* Darker blue */
+}
+
+/* Hover effect */
+.more-btn:hover,
+.less-btn:hover {
+
+    transform: scale(1.05);
+    /* Slightly enlarge the button */
+}
+
+/* Focus effect for accessibility */
+.more-btn:focus,
+.less-btn:focus {
+    outline: none;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.6);
+    /* Blue glow when focused */
+}
+
+/* Optional: Show less button - Hide by default */
+#lessViewButton2023 {
+    display: none;
+}
+
+/* Optional: Button text - Add space around */
+.more-btn,
+.less-btn {
+    text-decoration: none;
+    margin-bottom: 14px;
+}
+
+
+.next-btn {
+    font-size: 16px;
+    color: #fff;
+    /* Text color */
+    margin-top: 5px;
+    border: none;
+    padding: 5px 10px;
+    /* Padding around the button */
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 5px;
+    /* Rounded corners */
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    background-color: #0056b3;
+    /* Darker blue */
+    margin:left;
+}
+.prev-btn {
+    font-size: 16px;
+    color: #fff;
+    /* Text color */
+    margin-top: 5px;
+    border: none;
+    padding: 5px 10px;
+    /* Padding around the button */
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 5px;
+    /* Rounded corners */
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    background-color: #0056b3;
+    /* Darker blue */
+    margin:left;
+}
+
+
+
+.col-md-12 {
+    text-align: center;
+    margin: center;
+}
+
+.f6 h5 {
+
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #2980b9;
+
+    text-transform: uppercase;
+    margin-top: 10px;
+    letter-spacing: 1px;
+    transition: color 0.3s ease, transform 0.3s ease;
+
+
+}
+
+.image-title {
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #007bff;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 10px;
+    letter-spacing: 1px;
+    transition: color 0.3s ease, transform 0.3s ease;
+
+}
+
+/* Hover Effect */
+.image-title:hover {
+    color: #ff5733;
+    /* Change color on hover */
+    transform: scale(1.05);
+    /* Slight zoom effect on hover */
+}
+.btns {
+    width: auto;
+    height: auto;
+    line-height: 50px;
+   
+    border-radius: 8px;
+    color: rgba(47, 167, 120, 0.81);
+      font-size: 35px;
+    font-weight: normal;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: -webkit-transform;
+    transition-property: transform;
+    -webkit-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transform: translateY(-6px);
+    -ms-transform: translateY(-6px);
+    transform: translateY(-6px);
+    -webkit-animation-name: hover;
+    animation-name: hover;
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    -webkit-animation-delay: 0.3s;
+    animation-delay: 0.3s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+  
+    &:before {
+      pointer-events: none;
+      position: absolute;
+      z-index: -1;
+      content: '';
+      top: 100%;
+      left: 5%;
+      height: 10px;
+      width: 90%;
+      opacity: 0;
+      background: -webkit-radial-gradient(center, ellipse, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
+      background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
+      -webkit-transition-duration: 0.3s;
+      transition-duration: 0.3s;
+      -webkit-transition-property: -webkit-transform, opacity;
+      transition-property: transform, opacity;
+      opacity: .4;
+      -webkit-transform: translateY(6px);
+      -ms-transform: translateY(6px);
+      transform: translateY(6px);
+      -webkit-animation-name: hover-shadow;
+      animation-name: hover-shadow;
+      -webkit-animation-duration: 1.5s;
+      animation-duration: 1.5s;
+      -webkit-animation-delay: .3s;
+      animation-delay: .3s;
+      -webkit-animation-timing-function: linear;
+      animation-timing-function: linear;
+      -webkit-animation-iteration-count: infinite;
+      animation-iteration-count: infinite;
+      -webkit-animation-direction: alternate;
+      animation-direction: alternate;
+    }
+  
+   
+  }
+  
+  @keyframes hover {
+    50% {
+      -webkit-transform: translateY(-3px);
+      -ms-transform: translateY(-3px);
+      transform: translateY(-3px);
+    }
+  
+    100% {
+      -webkit-transform: translateY(-6px);
+      -ms-transform: translateY(-6px);
+      transform: translateY(-6px);
+    }
+  }
+  
+  @-webkit-keyframes hover-shadow {
+    0% {
+      -webkit-transform: translateY(6px);
+      transform: translateY(6px);
+      opacity: .4;
+    }
+  
+    50% {
+      -webkit-transform: translateY(3px);
+      transform: translateY(3px);
+      opacity: 1;
+    }
+  
+    100% {
+      -webkit-transform: translateY(6px);
+      transform: translateY(6px);
+      opacity: .4;
+    }
+  }
+  
+  @keyframes hover-shadow {
+    0% {
+      -webkit-transform: translateY(6px);
+      -ms-transform: translateY(6px);
+      transform: translateY(6px);
+      opacity: .4;
+    }
+  
+    50% {
+      -webkit-transform: translateY(3px);
+      -ms-transform: translateY(3px);
+      transform: translateY(3px);
+      opacity: 1;
+    }
+  
+    100% {
+      -webkit-transform: translateY(6px);
+      -ms-transform: translateY(6px);
+      transform: translateY(6px);
+      opacity: .4;
+    }
+  }
+  
+  @-webkit-keyframes hover {
+    50% {
+      -webkit-transform: translateY(-3px);
+      transform: translateY(-3px);
+    }
+  
+    100% {
+      -webkit-transform: translateY(-6px);
+      transform: translateY(-6px);
+    }
+  }
+  
+  @keyframes hover {
+    50% {
+      -webkit-transform: translateY(-3px);
+      -ms-transform: translateY(-3px);
+      transform: translateY(-3px);
+    }
+  
+    100% {
+      -webkit-transform: translateY(-6px);
+      -ms-transform: translateY(-6px);
+      transform: translateY(-6px);
+    }
+  }
+  .ac1 img:hover {
+    transform: scale(1.05);
+}
+
+
+footer {
+    background-color: #343a40; /* Dark background */
+    color: #ffffff; /* White text */
+}
+
+footer .btn-outline-light {
+    color: #ffffff;
+    border-color: #ffffff;
+}
+
+footer .btn-outline-light:hover {
+    background-color: #ffffff;
+    color: #343a40;
+}
+
+footer .list-inline-item {
+    margin-right: 15px;
+}
+
+footer hr.bg-light {
+    border-top: 1px solid #ffffff;
+}
+
+footer .container-fluid {
+    padding: 20px;
+}
+.map-container {
+    position: relative;
+    overflow: hidden;
+    padding-top: 50%; /* Aspect ratio of 16:9 */
+    height: 0;
+    max-width: 100%;
+}
+
+.map-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+.bg{
+    background: linear-gradient(45deg, #6a11cb, #2575fc);
+}
+@media (max-width: 768px) {
+    .col-md-5 img {
+        height: 250px; /* Adjust height on smaller screens */
+        object-fit: cover; /* Ensure the image covers the area even if cropped */
+    }
+}
+.ad h5 p{
+    text-align: center !important;
+}
